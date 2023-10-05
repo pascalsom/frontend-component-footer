@@ -46,9 +46,9 @@ class SiteFooter extends React.Component {
     return (
       <footer
         role="contentinfo"
-        className="footer d-flex border-top py-3 px-4"
+        className="footer border-top py-3 px-4"
       >
-        <div className="container-fluid d-flex">
+        <div className="container-fluid d-flex align-items-center mb-3">
           <a
             className="d-block"
             href={config.LMS_BASE_URL}
@@ -60,6 +60,11 @@ class SiteFooter extends React.Component {
               alt={intl.formatMessage(messages['footer.logo.altText'])}
             />
           </a>
+          <div className="flex-grow-1" />
+          <div><p className="copyright m-0">{intl.formatMessage(messages['footer.copyright'])}</p></div>
+        </div>
+
+        <div className="container-fluid d-flex">
           <div className="flex-grow-1" />
           {showLanguageSelector && (
             <LanguageSelector
