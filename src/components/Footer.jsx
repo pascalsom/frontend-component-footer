@@ -61,7 +61,7 @@ class SiteFooter extends React.Component {
             />
           </a>
           <div className="flex-grow-1" />
-          <div><p className="copyright m-0">Copyright © 2023. All rights reserved.</p></div>
+          <div><p className="copyright m-0">{intl.formatMessage(messages['footer.copyright'])}</p></div>
         </div>
 
         <div className="container-fluid d-flex">
