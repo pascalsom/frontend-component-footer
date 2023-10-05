@@ -1,5 +1,5 @@
 {
-  "branch": "sdaia-dev",
+  "branches": ["master", "sdaia-dev"],
   "tagFormat": "v${version}",
   "verifyConditions": [
     "@semantic-release/npm",
