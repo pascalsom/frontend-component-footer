@@ -69,12 +69,7 @@
   },
   "release": {
     "branches": [
-      {
-        "name": "master"
-      },
-      {
-        "name": "sdaia-dev"
-      }
+      "master", "sdaia-dev"
     ]
   }
 }
