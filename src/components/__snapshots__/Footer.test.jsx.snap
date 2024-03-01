@@ -54,7 +54,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
     <span
       className="copyright-site"
     >
-      Copyrights ©2023. All Rights Reserved.
+      Copyrights ©2024. All Rights Reserved.
     </span>
     <form
       className="form-inline"
@@ -152,7 +152,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
     <span
       className="copyright-site"
     >
-      Copyrights ©2023. All Rights Reserved.
+      Copyrights ©2024. All Rights Reserved.
     </span>
   </footer>
 </div>
@@ -212,7 +212,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
     <span
       className="copyright-site"
     >
-      Copyrights ©2023. All Rights Reserved.
+      Copyrights ©2024. All Rights Reserved.
     </span>
   </footer>
 </div>
