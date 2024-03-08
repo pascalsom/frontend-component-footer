@@ -53,7 +53,7 @@ class SiteFooter extends React.Component {
               <ul className="logo-list">
                 <li>{intl.formatMessage(messages['footer.poweredby.text'])}</li>
                 <li>
-                  <a href="https://docs.tutor.overhang.io" rel="noreferrer" target="_blank">
+                  <a href="https://edly.io/tutor/" rel="noreferrer" target="_blank">
                     <Image
                       src={`${config.LMS_BASE_URL}/static/indigo/images/tutor-logo.png`}
                       alt={intl.formatMessage(messages['footer.tutorlogo.altText'])}

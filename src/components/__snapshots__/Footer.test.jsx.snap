@@ -22,7 +22,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
           </li>
           <li>
             <a
-              href="https://docs.tutor.overhang.io"
+              href="https://edly.io/tutor/"
               rel="noreferrer"
               target="_blank"
             >
@@ -120,7 +120,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
           </li>
           <li>
             <a
-              href="https://docs.tutor.overhang.io"
+              href="https://edly.io/tutor/"
               rel="noreferrer"
               target="_blank"
             >
@@ -180,7 +180,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
           </li>
           <li>
             <a
-              href="https://docs.tutor.overhang.io"
+              href="https://edly.io/tutor/"
               rel="noreferrer"
               target="_blank"
             >
