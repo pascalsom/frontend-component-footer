@@ -8,21 +8,6 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
     className="tutor-container"
     id="footer"
   >
-    <a
-      aria-label="edX Home"
-      className="d-block"
-      href="http://localhost:18000"
-    >
-      <img
-        alt="Powered by Open edX"
-        src="https://edx-cdn.org/v3/default/logo-trademark.svg"
-        style={
-          {
-            "maxHeight": 45,
-          }
-        }
-      />
-    </a>
     <div
       className="footer-top"
     >
@@ -43,8 +28,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
             >
               <img
                 alt="Runs on Tutor"
-                className=""
-                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
                 width="57"
               />
             </a>
@@ -57,7 +41,6 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
             >
               <img
                 alt="Powered by Open edX"
-                className=""
                 src="http://localhost:18000/theming/asset/images/openedx-logo.png"
                 width="79"
               />
@@ -122,21 +105,6 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
     className="tutor-container"
     id="footer"
   >
-    <a
-      aria-label="edX Home"
-      className="d-block"
-      href="http://localhost:18000"
-    >
-      <img
-        alt="Powered by Open edX"
-        src="https://edx-cdn.org/v3/default/logo-trademark.svg"
-        style={
-          {
-            "maxHeight": 45,
-          }
-        }
-      />
-    </a>
     <div
       className="footer-top"
     >
@@ -157,8 +125,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
             >
               <img
                 alt="Runs on Tutor"
-                className=""
-                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
                 width="57"
               />
             </a>
@@ -171,7 +138,6 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
             >
               <img
                 alt="Powered by Open edX"
-                className=""
                 src="http://localhost:18000/theming/asset/images/openedx-logo.png"
                 width="79"
               />
@@ -197,21 +163,6 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
     className="tutor-container"
     id="footer"
   >
-    <a
-      aria-label="edX Home"
-      className="d-block"
-      href="http://localhost:18000"
-    >
-      <img
-        alt="Powered by Open edX"
-        src="https://edx-cdn.org/v3/default/logo-trademark.svg"
-        style={
-          {
-            "maxHeight": 45,
-          }
-        }
-      />
-    </a>
     <div
       className="footer-top"
     >
@@ -232,8 +183,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
             >
               <img
                 alt="Runs on Tutor"
-                className=""
-                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
                 width="57"
               />
             </a>
@@ -246,7 +196,6 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
             >
               <img
                 alt="Powered by Open edX"
-                className=""
                 src="http://localhost:18000/theming/asset/images/openedx-logo.png"
                 width="79"
               />

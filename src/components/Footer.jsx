@@ -2,10 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { sendTrackEvent } from '@edx/frontend-platform/analytics';
-import { ensureConfig } from '@edx/frontend-platform';
+import { ensureConfig, getConfig } from '@edx/frontend-platform';
 import { AppContext } from '@edx/frontend-platform/react';
-import { Image } from '@edx/paragon';
-import { getConfig } from '@edx/frontend-platform';
 
 import messages from './Footer.messages';
 import LanguageSelector from './LanguageSelector';
@@ -54,8 +52,8 @@ class SiteFooter extends React.Component {
                 <li>{intl.formatMessage(messages['footer.poweredby.text'])}</li>
                 <li>
                   <a href="https://edly.io/tutor/" rel="noreferrer" target="_blank">
-                    <Image
-                      src={`${config.LMS_BASE_URL}/theming/asset/images/tutor-logo.png`}
+                    <img
+                      src={`${config.LMS_BASE_URL}/theming/asset/imgs/tutor-logo.png`}
                       alt={intl.formatMessage(messages['footer.tutorlogo.altText'])}
                       width="57"
                     />
@@ -63,7 +61,7 @@ class SiteFooter extends React.Component {
                 </li>
                 <li>
                   <a href="https://open.edx.org" rel="noreferrer" target="_blank">
-                    <Image
+                    <img
                       src={logo || `${config.LMS_BASE_URL}/theming/asset/images/openedx-logo.png`}
                       alt={intl.formatMessage(messages['footer.logo.altText'])}
                       width="79"
