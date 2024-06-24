@@ -28,7 +28,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
             >
               <img
                 alt="Runs on Tutor"
-                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
                 width="57"
               />
             </a>
@@ -125,7 +125,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
             >
               <img
                 alt="Runs on Tutor"
-                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
                 width="57"
               />
             </a>
@@ -183,7 +183,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
             >
               <img
                 alt="Runs on Tutor"
-                src="http://localhost:18000/theming/asset/imgs/tutor-logo.png"
+                src="http://localhost:18000/theming/asset/images/tutor-logo.png"
                 width="57"
               />
             </a>

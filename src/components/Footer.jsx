@@ -53,7 +53,7 @@ class SiteFooter extends React.Component {
                 <li>
                   <a href="https://edly.io/tutor/" rel="noreferrer" target="_blank">
                     <img
-                      src={`${config.LMS_BASE_URL}/theming/asset/imgs/tutor-logo.png`}
+                      src={`${config.LMS_BASE_URL}/theming/asset/images/tutor-logo.png`}
                       alt={intl.formatMessage(messages['footer.tutorlogo.altText'])}
                       width="57"
                     />
