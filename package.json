@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edly-io/frontend-component-footer.git"
+    "url": "git+https://github.com/pascalsom/frontend-component-footer.git"
   },
   "author": "edX",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/edly-io/frontend-component-footer/issues"
+    "url": "https://github.com/pascalsom/frontend-component-footer/issues"
   },
   "homepage": "https://github.com/edly-io/frontend-component-footer#readme",
   "devDependencies": {
