@@ -26,6 +26,8 @@ jobs:
       run: npm run i18n_extract
     - name: Build
       run: npm run build
+    - name: Test
+      run: echo ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
     - name: Release
       uses: cycjimmy/semantic-release-action@v3
       with:
