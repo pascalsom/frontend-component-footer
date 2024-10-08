@@ -3,3 +3,11 @@ $gray-footer: #fcfcfc !default;
 .footer {
   background-color: $gray-footer;
 }
+
+.wrapper footer.tutor-container .logo-list li:last-child:after {
+    display: none;
+}
+
+.wrapper footer.tutor-container .logo-list li:last-child {
+    padding-left: 0px;
+}
