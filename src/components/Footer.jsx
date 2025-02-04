@@ -58,6 +58,9 @@ class SiteFooter extends React.Component {
                 <li>
                   <a href="https://neonto.de/imprint">Imprint</a>
                 </li>
+                <li>
+                  <a href="mailto:support@neonto.de">Support</a>
+                </li>
               </ul>
             </div>
           </div>
